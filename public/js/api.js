@@ -39,6 +39,7 @@ var Api = (function() {
     }
 
 	//エラーハンドリング修正
+	//test
     // Built http request
     var http = new XMLHttpRequest();
     http.open('POST', messageEndpoint, true);

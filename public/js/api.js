@@ -38,6 +38,7 @@ var Api = (function() {
       payloadToWatson.context = context;
     }
 
+	//エラーハンドリング修正
     // Built http request
     var http = new XMLHttpRequest();
     http.open('POST', messageEndpoint, true);
